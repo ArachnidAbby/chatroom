@@ -2,7 +2,9 @@ import socket
 from _thread import *
 File = open("info.chat","r")
 g= File.read().split("\n")
+File.close()
 ip = ""
+print(int(g[1]))
 port = int(g[1])
 buff = 200
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -14,7 +16,7 @@ def threaded_client(conn):
         while True:
             s.listen(1)
             data = conn.recv(buff)
-            if data == g[0]+": close\n".encode(): 
+            if data == (g[0]+": close\n").encode(): 
                 s.close()
                 conn.close()
             print("message recieved: {",data.decode("utf-8").replace("\n",""),"}")
