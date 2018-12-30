@@ -10,11 +10,7 @@ This a socket chatroom service made in python
    
    3) edit port through line 2 of info.chat
  # client
-   1)the client can be run easily(if your original server is running on a different pc edit the ip on line 2 in save.chat      https://notepad-plus-plus.org/ )
-
-   1)default port is 25565 but can be changed in line 2 of save.chat
-
-   2)give your friends the 2 client files(client.exe and save.chat)
+   1) run the client and type in the name(left entry field), ip (top right entry field), and the port(bottom left entry field)
 
 # notes
 1)this is a tcp based server-client system(this means both need to be online to work)
