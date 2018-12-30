@@ -11,6 +11,8 @@ This a socket chatroom service made in python
    3) edit port through line 2 of info.chat
  # client
    1) run the client and type in the name(left entry field), ip (top right entry field), and the port(bottom left entry field)
+   
+   2) restart the client when ever you change the server
 
 # notes
 1) this is a tcp based server-client system(this means both need to be online to work)
