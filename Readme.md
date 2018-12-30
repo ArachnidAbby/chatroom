@@ -3,12 +3,14 @@
 
 This a socket chatroom service made in python
 # steps
+ 1) 
  # server
    1) server needs to be ran through python3.6.1 https://www.python.org/ftp/python/3.6.1/python-3.6.1-amd64.exe
 
    2) to edit the secret admin name edit line 1 of info.chat
    
    3) edit port through line 2 of info.chat
+ 2) 
  # client
    1) run the client and type in the name(left entry field), ip (top right entry field), and the port(bottom left entry field)
 
